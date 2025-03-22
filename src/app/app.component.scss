@@ -1,3 +1,12 @@
 main{
   height: 100vh;
 }
+
+@media only screen and (max-width: 991px) {
+  #hero-img {
+    aspect-ratio: 3/4;
+  }
+  #hero-img-wrapper{
+    height: 50% !important;
+  }
+}
